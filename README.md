@@ -1,5 +1,4 @@
 ## KAKAO VILLAINS SHOP
-![screen-recording-_1_](https://user-images.githubusercontent.com/74174117/112611905-b4218680-8e61-11eb-90f4-4499c50d12b4.gif)
 
 ### 카카오프렌즈 샵 클론 프로젝트
 <br> [카카오 프렌즈샵] https://store.kakaofriends.com/kr/index
@@ -48,7 +47,44 @@ HTML,CSS, JavaScript(ES6+) React, SCSS
 - url path params를 통해 해당 제품 페이지 동적 라우팅 기능 구현
 - 리뷰 리스트에서 좋아요 버튼 활성화 기능 구현
 
-### Reference
-이 프로젝트는 카카오프렌즈 샵 사이트를 참조하여 학습목적으로 만들었습니다.
-실무수준의 프로젝트이지만 학습용으로 만들었기 때문에 이 코드를 활용하여 이득을 취하거나 무단 배포할 경우 법적으로 문제될 수 있습니다.
-이 프로젝트에서 사용하고 있는 사진 대부분은 위코드에서 구매한 것이므로 해당 프로젝트 외부인이 사용할 수 없습니다.
+## 결과
+1. 로그인 및 회원가입 페이지
+
+	로그인, 회원가입 기능 구현
+
+![](https://images.velog.io/images/tjdgns503/post/c87bc614-6267-49cd-a62f-fd590652b890/1.gif)
+
+2. 이미지 슬라이드 기능 및 게시글 및 제품 페이지 이동(✔)
+
+이미지 슬라이드 기능은 react-slick 이라는 라이브러리를 이용해 구현 및 path parameter를 이용하여 각 피드 및 제품 페이지 이동(동적라우팅)을 구현.
+    
+![](https://images.velog.io/images/tjdgns503/post/98e0e1ae-da20-4104-9635-36af7cd43283/2.gif)
+ 3. 로그인 모달창,무한 스크롤 기능(✔)
+ 
+로그인 모달창 on / off 기능 및 무한 스크롤 기능 구현( 무한 스크롤 기능은 react-infinite-scroll-component 라이브러리를 이용해 구현.(스크롤이 밑에 닿을때 마다 다음 데이터를 fetch()로 호출))
+
+![](https://images.velog.io/images/tjdgns503/post/54740c67-f0d3-419f-af40-efd7adf58196/3.gif)
+
+4. 검색 창 구현(filterKeyword)
+검색창 입력 시 change가 일어날 때마다 fetch()호출
+   
+![](https://images.velog.io/images/tjdgns503/post/38a698ab-8ea0-4662-865a-c558b36790ea/6.gif)
+
+5. 캐릭터별 페이지 이동 및 정렬 순서
+url path parameter 를 이용하여 각 캐리터별 페이지 이동(동적라우팅)구현 및 query parameter 를 이용해 최신순,가격 낮은순, 가격높은순 구현
+  
+![](https://images.velog.io/images/tjdgns503/post/27726915-f3a9-46d0-b4a8-8a65e94ba800/5.gif)
+
+6. 제품 상세 페이지 
+별점 및 추천 상품으로 url path parameter를 이용해 각 상품 리스트 페이지로 이동 구현
+  
+![](https://images.velog.io/images/tjdgns503/post/ff7c8904-00ca-455f-807f-1e6323d4c692/7.gif)
+
+7. 게시글 페이지
+댓글 입력 및 삭제 기능 구현
+    
+![](https://images.velog.io/images/tjdgns503/post/ba67968a-e100-4591-8d76-d9f4c73813ac/8.gif)
+
+
+
+
