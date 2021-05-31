@@ -59,7 +59,8 @@ HTML,CSS, JavaScript(ES6+) React, SCSS
 이미지 슬라이드 기능은 react-slick 이라는 라이브러리를 이용해 구현 및 path parameter를 이용하여 각 피드 및 제품 페이지 이동(동적라우팅)을 구현.
     
 ![](https://images.velog.io/images/tjdgns503/post/98e0e1ae-da20-4104-9635-36af7cd43283/2.gif)
- 3. 로그인 모달창,무한 스크롤 기능(✔)
+ 
+3. 로그인 모달창,무한 스크롤 기능(✔)
  
 로그인 모달창 on / off 기능 및 무한 스크롤 기능 구현( 무한 스크롤 기능은 react-infinite-scroll-component 라이브러리를 이용해 구현.(스크롤이 밑에 닿을때 마다 다음 데이터를 fetch()로 호출))
 
